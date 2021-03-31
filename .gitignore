@@ -1,7 +1,27 @@
 
 # directories (by name)
 
-ideas/
+/_build/
+/_internal/
+
+/.vs/
+
+/ideas/
+
+Debug/
+Debug Multithreaded/
+Debug Multithreaded DLL/
+UDebug/
+Unicode Debug/
+Unicode Debug Multithreaded/
+Unicode Debug Multithreaded DLL/
+Release/
+Release Multithreaded/
+Release Multithreaded DLL/
+URelease/
+Unicode Release/
+Unicode Release Multithreaded/
+Unicode Release Multithreaded DLL/
 
 # directories (by pattern)
 
@@ -9,29 +29,44 @@ ideas/
 
 list_changes.cmd
 
+logging-bailout.txt
+
+sh.exe.stackdump
+
 # files (by pattern)
 
 *~
 *.a
 *.app
+*.bak
 *.dll
 *.dylib
 *.exe
 *.gch
+*.idb
 *.ilk
 *.lib
+*.log
 *.ncb
 *.o
 *.obj
 *.opensdf
+*.opt
+*.org
 *.out
 *.pch
 *.pdb
-*.sdf
+*.res
 *.sbr
 *.scc
+*.sdf
 *.so
+*.suo
 *.swp
+*.tlog
+*.tmp
+*.unsuccessfulbuild
 *.vcproj*.user
 *.vcxproj*.user
+*.zip
 
